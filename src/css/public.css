@@ -215,6 +215,101 @@ a:visited {
     }
 }
 
+/* Footer Styles */
+.footer {
+    background-color: #f8f9fa;
+    /* Light background */
+    padding: 20px 0;
+    /* Add spacing for footer content */
+    border-top: 2px solid #e9ecef;
+    /* Subtle border at the top */
+}
+
+.footer-container {
+    max-width: 1200px;
+    /* Limit the container width */
+    margin: 0 auto;
+    /* Center the content */
+    text-align: center;
+    /* Center-align the text */
+    font-family: 'Arial', sans-serif;
+    /* Modern font family */
+    color: #495057;
+    /* Neutral text color */
+}
+
+.footer-container h3 {
+    font-size: 1rem;
+    /* Adjust font size for better readability */
+    line-height: 1.5;
+    /* Increase line height for clarity */
+    margin: 0;
+    /* Remove default margin */
+    padding: 0;
+    /* Remove padding */
+}
+
+.footer-container h3 strong {
+    color: #007bff;
+    /* Highlighted text color */
+    font-weight: 600;
+    /* Make the text bold */
+}
+
+.footer-container h3:hover {
+    color: #212529;
+    /* Darker color on hover */
+}
+
+@media (max-width: 768px) {
+    .footer-container h3 {
+        font-size: 0.9rem;
+        /* Reduce font size on smaller screens */
+    }
+}
+
+/* Notice Section */
+.notice-container {
+    background-color: #f8f9fa;
+    /* Light gray background */
+    border: 1px solid #ddd;
+    /* Subtle border */
+    padding: 15px;
+    margin: 20px 0;
+    /* Space above and below */
+    border-radius: 8px;
+    /* Rounded corners */
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    /* Slight shadow */
+}
+
+.notice-container p {
+    font-size: 1.2rem;
+    /* Slightly larger font */
+    color: #495057;
+    /* Neutral text color */
+    line-height: 1.6;
+    /* Spacing between lines */
+    margin: 0;
+}
+
+.notice-container .highlight {
+    font-weight: bold;
+    color: #007bff;
+    /* Highlight color */
+    padding: 0 5px;
+    /* Space around text */
+}
+
+/* Add responsiveness */
+@media (max-width: 768px) {
+    .notice-container p {
+        font-size: 1rem;
+        /* Adjust font size on smaller screens */
+    }
+}
+
 
 
 
