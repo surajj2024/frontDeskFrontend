@@ -26,51 +26,33 @@
 /* Style for the icon button */
 .icon-button {
     background-color: #007bff;
-    /* A vibrant blue color */
     border: none;
-    /* Remove default border */
     color: white;
-    /* Icon color */
     padding: 10px 15px;
-    /* Add some padding for better spacing */
     border-radius: 50%;
-    /* Make it circular */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    /* Add a subtle shadow */
     transition: transform 0.2s ease, background-color 0.3s ease;
-    /* Smooth hover effects */
     cursor: pointer;
-    /* Pointer cursor on hover */
     font-size: 1.5rem;
-    /* Adjust font size for the icon */
 }
 
 .icon-button:hover {
     background-color: #0056b3;
-    /* Darker blue on hover */
     transform: scale(1.1);
-    /* Slightly enlarge the button */
 }
 
 .icon-button:active {
     transform: scale(0.95);
-    /* Shrink slightly on click */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-    /* Reduce shadow on click */
 }
 
 .icon-button:disabled {
     background-color: #cfcfcf;
-    /* Gray for disabled state */
     color: #6c757d;
-    /* Muted icon color */
     cursor: not-allowed;
-    /* Show not-allowed cursor */
     box-shadow: none;
-    /* Remove shadow for disabled state */
 }
 
-/* Form input styling */
 .form__input {
     width: 100%;
     margin-bottom: 20px;
@@ -81,7 +63,6 @@
     background-color: #f8d7da !important;
 }
 
-/* Error message styling */
 .errmsg {
     color: #dc3545;
     font-size: 14px;
@@ -93,7 +74,6 @@
     display: none;
 }
 
-/* Labels and selects */
 .form__label {
     display: block;
     font-weight: bold;
@@ -117,7 +97,6 @@
     box-shadow: 0 0 4px rgba(0, 123, 255, 0.25);
 }
 
-/* Button styling */
 button.icon-button {
     display: flex;
     align-items: center;
@@ -125,12 +104,10 @@ button.icon-button {
     gap: 10px;
 }
 
-/* Input error state */
 .form__input--patient {
     margin-bottom: 20px;
 }
 
-/* TextField and InputAdornment adjustments */
 .MuiTextField-root {
     width: 100%;
 }
@@ -139,12 +116,10 @@ button.icon-button {
     color: #555;
 }
 
-/* Adjustments for input focus */
 .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
     border-color: #007bff;
 }
 
-/* Media query for responsiveness */
 @media (max-width: 768px) {
     .form {
         padding: 15px;

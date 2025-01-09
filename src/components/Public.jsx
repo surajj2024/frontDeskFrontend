@@ -12,7 +12,6 @@ const Public = () => {
   const content = (
     <>
       <div className="container">
-        {/* Header */}
         <div className="header-container">
           <div className="logo-name">
             <MedicalInformationIcon
